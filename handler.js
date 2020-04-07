@@ -12,7 +12,7 @@ app.use(bodyParser.text({
     }
 }));
 
-app.get("/", (req, res) => res.send("Hello World!"));
+app.get("/", (req, res) => res.send("Hello From Github World!"));
 
 app.get("/message", (req, res) => res.send("Hello!"));
 
